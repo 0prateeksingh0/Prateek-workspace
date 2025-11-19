@@ -29,7 +29,7 @@ This document provides a comprehensive understanding of the Workspace Booking Sy
 ## 1. Project Identification
 
 **Project Name**: Workspace Booking & Pricing System  
-**Repository URL**: [To be added after pushing to GitHub]  
+**Repository URL**: https://github.com/0prateeksingh0/Prateek-workspace  
 **Primary Contact**: [Your Name/Team]  
 **Version**: 1.0.0  
 **Date of Last Update**: November 19, 2025  
