@@ -4,8 +4,8 @@ A full-stack workspace booking system with dynamic pricing, conflict prevention,
 
 ## 🚀 Live Demo
 
-- **Frontend**: [Deployed on Netlify/Vercel]
-- **Backend API**: [Deployed on Render/Railway]
+- **Frontend**: https://prateek-workspace.vercel.app/
+- **Backend API**: https://prateek-workspace.onrender.com
 
 ## 📋 Features
 
