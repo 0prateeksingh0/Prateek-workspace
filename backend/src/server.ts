@@ -48,7 +48,8 @@ app.get('/health', (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+const HOST = '0.0.0.0'; // Bind to all network interfaces for Render
+app.listen(Number(PORT), HOST, () => {
   console.log(`🚀 Server running on port ${PORT}`);
   console.log(`📍 Environment: ${process.env.NODE_ENV || 'development'}`);
   console.log(`🌏 Timezone: ${process.env.TIMEZONE || 'Asia/Kolkata'}`);
