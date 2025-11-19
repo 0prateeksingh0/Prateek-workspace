@@ -16,7 +16,7 @@ import { seedRooms } from './scripts/seedData';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || '10000';
 
 // Middleware
 app.use(cors());
@@ -49,8 +49,10 @@ app.get('/health', (req, res) => {
 
 // Start server
 const HOST = '0.0.0.0'; // Bind to all network interfaces for Render
-app.listen(Number(PORT), HOST, () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+const port = parseInt(PORT as string, 10);
+
+app.listen(port, HOST, () => {
+  console.log(`🚀 Server running on port ${port}`);
   console.log(`📍 Environment: ${process.env.NODE_ENV || 'development'}`);
   console.log(`🌏 Timezone: ${process.env.TIMEZONE || 'Asia/Kolkata'}`);
 });
